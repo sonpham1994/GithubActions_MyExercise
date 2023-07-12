@@ -48,7 +48,6 @@ jobs:
       
       - run: echo "This job's status is ${{ job.status }}."
       
-
   Second-Job:
     name: The second job running on another runner
     runs-on: ubuntu-latest
