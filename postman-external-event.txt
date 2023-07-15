@@ -1,0 +1,10 @@
+curl --location 'https://api.github.com/repos/sonpham1994/GithubActions_MyExercise/dispatches' \
+--header 'Accept: application/vnd.github.v3+json' \
+--header 'Content-Type: application/json' \
+--header 'Authorization: Bearer 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' \
+--data '{
+    "event_type": "run_my_workflow",
+    "client_payload": {
+        "mydata": "Some External Value"
+    }
+}'
